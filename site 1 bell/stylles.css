@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-gratis/quadro-de-elementos-de-giz_1411-75.jpg?w=740&t=st=1715538190~exp=1715538790~hmac=7d285ee320b81ca19fe5c9b69e7c01a46a9a522a5917ae17234fefeac87204a9');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #a8b3be;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #0f1011;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    text-align: left;
+    display: block;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #343a40;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section p {
+    color: #6c757d;
+    line-height: 1.6;
+    text-align: left;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.recipe-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.recipe-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.recipe-card p {
+    margin-top: 5px;
+    color: #6c757d;
+}
+
+.recipe-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffc107;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.recipe-card a:hover {
+    background-color: #ffca28;
+}
